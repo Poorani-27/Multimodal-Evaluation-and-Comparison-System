@@ -19,7 +19,7 @@ This repository contains a Python-based backend system built with FastAPI for ev
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/multimodal-evaluation-system.git
+   git clone https://github.com/Poorani-27/Multimodal-Evaluation-and-Comparison-System.git
    cd multimodal-evaluation-system```
 
 2. **Install dependencies**:
