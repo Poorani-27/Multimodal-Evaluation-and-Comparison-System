@@ -61,9 +61,20 @@ uvicorn main:app --reload
 
 Send a POST request to `/evaluate` with JSON payload:
 
-```json
-{
+``` {
   "text": "Sample text for evaluation.",
   "task": "classification"
 }
+```
+
+### GET /benchmark
+Description: Allows benchmarking models on a provided dataset for various NLP tasks.
+Returns: Performance metrics (accuracy, F1 score, etc.) for each model.
+Example Request
+
+``` /benchmark?task=classification&dataset=mydataset.csv ```
+
+
+### GET /health
+Description: Returns the status of the service and basic usage statistics.
 
